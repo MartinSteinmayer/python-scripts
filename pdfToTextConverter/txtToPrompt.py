@@ -23,11 +23,12 @@ def format_text_file(input_file, output_file, segment_length):
     print(f"Formatted text saved to {output_file}")
     f.close()
 
+
 # Path to the input .txt file
-input_file = 'output.txt'
+input_file = 'pdfToTextFunc\pdfToTextConverter\output.txt'
 
 # Path to the output formatted .txt file
-output_file = 'summarized.txt'
+output_file = 'pdfToTextFunc\pdfToTextConverter\summarized.txt'
 
 # Segment length (in number of characters, words, or sentences)
 segment_length = 200
